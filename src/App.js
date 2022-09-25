@@ -1,11 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Search from './components/search/search';
+import currentWeather from './components/current-weather/current-weather';
+
 
 function App() {
+  const handleOnSearchChange = (searchData) => {
+    console.log(searchData);
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">hey you
-      </header>
+    <div className="container">
+      <Search onSearchChange={handleOnSearchChange}/>
+      <currentWeather />
     </div>
   );
 }
