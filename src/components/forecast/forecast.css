@@ -1,6 +1,7 @@
 .title {
     font-size: 23px;
     font-weight: 700;
+    color: #ffffff;
   }
   
   .daily-item {
@@ -35,7 +36,7 @@
   }
   
   .min-max {
-    color: #757575;
+    color: #2e7e01;
   }
   
   .daily-details-grid {
@@ -58,9 +59,9 @@
   }
   
   .daily-details-grid-item label:first-child {
-    color: #757575;
+    color: #ffffff;
   }
   
   .daily-details-grid-item label:last-child {
-    color: #212121;
+    color: #ffffff;
   }
